@@ -8,7 +8,7 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class TestController
 {
-    /** @Route("/", name="home") */
+    /** @Route("/home", name="home") */
     public function home()
     {
         return new Response("Hello!");
