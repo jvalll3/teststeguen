@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class TestController
 {
     /**
-     * @Route(path="/home", name="home")
+     * @Route("/home", name="home")
      * @return Response
      */
     public function home()
